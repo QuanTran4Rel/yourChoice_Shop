@@ -1,11 +1,10 @@
 package org.example.yourchoiceshop.entity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-@Entity @Table(name = "phuong_thuc_thanh_toan") @Data
+@Entity @Table(name = "phuong_thuc_thanh_toan")
 @Getter
 @Setter
 @NoArgsConstructor

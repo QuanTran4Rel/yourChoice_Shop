@@ -1,13 +1,12 @@
 package org.example.yourchoiceshop.entity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
-@Entity @Table(name = "lich_su_hoa_don") @Data
+@Entity @Table(name = "lich_su_hoa_don")
 @Getter
 @Setter
 @NoArgsConstructor

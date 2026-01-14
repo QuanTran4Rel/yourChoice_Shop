@@ -1,14 +1,13 @@
 package org.example.yourchoiceshop.entity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-@Entity @Table(name = "lich_su_thanh_toan") @Data
+@Entity @Table(name = "lich_su_thanh_toan")
 @Getter
 @Setter
 @NoArgsConstructor

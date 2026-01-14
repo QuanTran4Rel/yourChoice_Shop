@@ -4,7 +4,7 @@ import lombok.*;
 import java.time.LocalDate;
 import java.util.List;
 
-@Entity @Table(name = "khach_hang") @Data
+@Entity @Table(name = "khach_hang")
 @Getter
 @Setter
 @NoArgsConstructor

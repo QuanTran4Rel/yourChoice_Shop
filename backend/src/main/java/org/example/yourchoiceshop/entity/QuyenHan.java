@@ -4,7 +4,6 @@ import lombok.*;
 
 
 @Entity @Table(name = "quyen_han") 
-@Data
 @Getter
 @Setter
 @NoArgsConstructor

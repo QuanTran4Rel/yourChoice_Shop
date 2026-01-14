@@ -4,7 +4,6 @@ import lombok.*;
 import java.math.BigDecimal;
 @Entity 
 @Table(name = "chi_tiet_dot_giam_gia") 
-@Data
 @Getter
 @Setter
 @NoArgsConstructor

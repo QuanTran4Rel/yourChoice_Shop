@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import java.util.List;
 
-@Entity @Table(name = "san_pham") @Data
+@Entity @Table(name = "san_pham")
 @Getter
 @Setter
 @NoArgsConstructor

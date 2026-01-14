@@ -4,7 +4,7 @@ import lombok.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-@Entity @Table(name = "phieu_giam_gia") @Data
+@Entity @Table(name = "phieu_giam_gia")
 @Getter
 @Setter
 @NoArgsConstructor

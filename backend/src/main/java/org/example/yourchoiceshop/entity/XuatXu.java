@@ -1,7 +1,7 @@
 package org.example.yourchoiceshop.entity;
 import jakarta.persistence.*;
 import lombok.*;
-@Entity @Table(name = "xuat_xu") @Data
+@Entity @Table(name = "xuat_xu")
 @Getter
 @Setter
 @NoArgsConstructor
