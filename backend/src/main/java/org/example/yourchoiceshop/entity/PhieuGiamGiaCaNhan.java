@@ -4,6 +4,10 @@ import lombok.*;
 import java.time.LocalDateTime;
 
 @Entity @Table(name = "phieu_giam_gia_ca_nhan") @Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class PhieuGiamGiaCaNhan extends PrimaryEntity {
     @Column(name = "ma_phieu_khach_hang") private String maPhieuKhachHang;
     @Column(name = "ngay_nhan") private LocalDateTime ngayNhan;

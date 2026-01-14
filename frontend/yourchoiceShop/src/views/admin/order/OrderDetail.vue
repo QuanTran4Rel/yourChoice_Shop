@@ -5,4 +5,5 @@
 </template>
 
 <script setup>
+// Logic cho order detail ở đây
 </script>

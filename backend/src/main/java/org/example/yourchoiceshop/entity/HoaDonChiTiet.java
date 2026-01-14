@@ -3,6 +3,10 @@ import jakarta.persistence.*;
 import lombok.*;
 import java.math.BigDecimal;
 @Entity @Table(name = "hoa_don_chi_tiet") @Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class HoaDonChiTiet extends PrimaryEntity {
     @Column(name = "ma_hoa_don_chi_tiet") private String maHoaDonChiTiet;
     private Integer soLuong;

@@ -4,6 +4,10 @@ import lombok.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 @Entity @Table(name = "dot_giam_gia") @Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class DotGiamGia extends PrimaryEntity {
     @Column(name = "ma_dot_giam_gia") private String maDotGiamGia;
     @Column(name = "ten_dot_giam_gia") private String tenDotGiamGia;

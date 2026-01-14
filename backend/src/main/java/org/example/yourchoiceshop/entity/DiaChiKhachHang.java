@@ -2,6 +2,10 @@ package org.example.yourchoiceshop.entity;
 import jakarta.persistence.*;
 import lombok.*;
 @Entity @Table(name = "dia_chi_khach_hang") @Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class DiaChiKhachHang extends PrimaryEntity {
     @Column(name = "ma_dia_chi") private String maDiaChi;
     @Column(name = "ten_nguoi_nhan") private String tenNguoiNhan;

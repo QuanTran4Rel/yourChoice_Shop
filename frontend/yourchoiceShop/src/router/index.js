@@ -14,11 +14,11 @@ const router = createRouter({
     {
       path: '/admin',
       component: () => import('../layouts/AdminLayout.vue'),
-      meta: { requiresAuth: true }, // Sau này dùng để check quyền
+      // meta: { requiresAuth: true }, // Sau này dùng để check quyền
       children: [
         {
-          path: '', // Mặc định vào dashboard
-          redirect: '/admin/dashboard'
+          path: '', // Mặc định vào order detail
+          redirect: '/admin/orders/1'
         },
         {
           path: 'dashboard',
